@@ -1,10 +1,167 @@
-
+@font-face{
+    font-family: "poppins";
+    src:url("../fonts/poppins.ttf");
+}
+@font-face{
+    font-family: "poppins-medium";
+    src:url(../fonts/Poppins-Medium.ttf);
+}
 body{
-    font-family: Poppins, sans-serif;
-    background-color: white;
+    font-family: "poppins";
+    margin: 0;
 }
-.navbar {
-    text-align: left;
+nav {
+   height: 72px;
+   display: flex;
+   margin: 0px;
+   padding: 20px;
+   background-color: #0475ba;
+   color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 24px;
     list-style: none;
+}
+nav li {
+    margin-left: 15px;
+}
+header{
+    text-align: center;
+    padding: 50px;
+    margin: 0px;
+    display: flex;
+}
+header h5{
+    color: #0475ba;
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px;
+    display: flex;
+}
+section {
+        padding: 40px;
+}
+div h2{
+    color:#0475ba;
+}
+#profile{
+    background-color: #0475ba;
+    color: white;
+    margin: 0px;
+    padding: 72px;
+}
+#profile ul{
+    margin: 5px;
+    padding: 10px;
+}
+#experiences h4{
+    color: #0475ba;
+}
+#experiences{
+    margin: 10px;
+    padding: 60px;
+    padding-bottom: 50px;
+}
+.intern p{
+    font-weight: bold;
+}
+.intern ul{
+    list-style: none;
+    text-align: left;
+    margin: 0px;
+    padding: 1px;
+}
+
+.work{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.intern{
+    display: flex;
+    justify-content: space-between;
+}
+.job{
+    display: flex;
+    justify-content: space-between;
+}
+#formations{
+    background-color: #0475ba;
+    color: white;
+    margin: 0px;
+    padding: 80px; 
+    text-align: left;
+}
+.train{
+    text-align: left;
+}
+
+.year{
+    justify-content: right;
+    display: flex;
+    text-align: right;
 
 }
+
+#formations .year{
+    justify-content: space-between;
+    text-align: left;
+}
+.ecole{
+    display: flex;
+    justify-content: space-between;
+}
+#passion{
+    margin: 10px;
+    padding: 60px;
+}
+#passion h4{
+    color:#0475ba;
+    padding: 10px;
+    margin: 5px;
+   }
+.hobbies{
+    line-height: 15px;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+}
+footer{
+    background-color: #0475ba;
+    color: white;
+    padding: 0px;
+    text-decoration: underline;
+    display: flex;
+}
+.foot ul{
+    list-style: none;
+}
+.social ul{
+    list-style: none;
+}
+
+footer .end{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+footer .social{
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+
+
+
+
